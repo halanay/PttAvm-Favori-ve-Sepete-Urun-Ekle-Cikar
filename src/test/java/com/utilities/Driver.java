@@ -20,7 +20,7 @@ public class Driver {
     static WebDriver driver;
 
     public static WebDriver getDriver() {
-        if (driver == null) {
+        if (driver == null) {  
             switch (ConfigurationReader.getProperty("browser")) {
 
                 case "edge":
